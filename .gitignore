@@ -1,0 +1,13 @@
+# local environments and experiment outputs
+.venv/
+.runs/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.cache/
+.pytest_cache/
+
+# local logs and machine-specific files
+*.log
+.env
+.vscode/

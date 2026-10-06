@@ -1,0 +1,16 @@
+{
+  "output_dir": ".runs/smolvla_smoke",
+  "root_dir": "/data1/code/dlx/psi_home/data/egodex",
+  "split": "part1",
+  "max_episodes": 1,
+  "frame_index": 0,
+  "train_batch_size": 1,
+  "num_workers": 0,
+  "max_training_steps": 1,
+  "checkpointing_steps": 0,
+  "mixed_precision": "no",
+  "model_family": "smolvla",
+  "model_name_or_path": "/data1/code/dlx/psi_home/cache/hf/smolvla_base",
+  "local_files_only": true,
+  "dataset_family": "egodex"
+}
