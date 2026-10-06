@@ -1,4 +1,4 @@
-# Psi0_zbs
+# OmniForge
 
 当前包含：
 
@@ -16,7 +16,7 @@ A 线代码不 import `psi` 或 `ZCode_psi`。`fast/` 和 `assets/` 是运行时
 ## 目录结构
 
 ```text
-Psi0_zbs/
+OmniForge/
 ├── train.py                       # torchrun 入口和组件组装
 ├── trainer/trainer.py             # 训练、反向传播、优化器、checkpoint
 ├── config/
@@ -64,7 +64,7 @@ Dataset 负责“原始文件 → 基础 batch”；模型适配器负责“基�
 ## 启动训练
 
 ```bash
-cd /data1/code/dlx/Psi0_zbs
+cd /data1/code/dlx/OmniForge
 bash run_other.sh
 ```
 
@@ -320,7 +320,7 @@ config/configs/smolvla.json
 单步训练：
 
 ```bash
-cd /data1/code/dlx/Psi0_zbs
+cd /data1/code/dlx/OmniForge
 source .venv/bin/activate
 
 export PYTHONPATH=.
